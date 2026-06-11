@@ -28,7 +28,6 @@ export async function promptClaude(userPrompt: string): Promise<PromptResponse> 
         });
 
         const data = await response.json();
-        console.log("GROQ RESPONSE:", JSON.stringify(data));
         const output = data.choices[0]?.message?.content || data.error?.message || JSON.stringify(data) || "No response";;
 
         return { output, tokens: 0 };
