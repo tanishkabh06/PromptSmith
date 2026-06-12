@@ -7,14 +7,14 @@ An IDE for testing, saving, and exporting AI prompts. Built for developers using
 - 📝 **Test Prompts**: Write and test prompts against Claude AI
 - 💾 **Save & Load**: Store your best prompts locally (browser storage)
 - 🗑️ **Manage**: Delete prompts you no longer need
-- 🎨 **Clean UI**: Beautiful, responsive interface built with Tailwind CSS
+- 🎨 **Clean UI**: Simple, responsive interface built with Tailwind CSS
 
 ## Tech Stack
 
 - **Frontend**: React 18 + TypeScript
 - **Styling**: Tailwind CSS
 - **Build**: Vite
-- **API**: Claude API (Anthropic)
+- **API**: Groq API
 - **Deployment**: Vercel
 
 ## Getting Started
